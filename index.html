@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -51,7 +51,28 @@
                  <br>
                  Telefone: <a href="tel:47984748332">47984748332</a>
              </address>   
-
+              <form action="">
+                  <label for="nome">Nome: </label>
+                  <input type="text" name="nome" id="nome" required> <br>
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required> <br>
+                  <label for="telefone">Telefone: </label>
+                  <input type="tel" name="telefone" id="telefone" required> <br>
+                  <label for="assunto">Assunto: </label>
+                  <select name="assunto" id="assunto">
+                      <option value="orçamento">Orçamento</option>
+                      <option value="dúvida">Dúvida</option>
+                      <option value="outro">Outro</option>
+                  </select>
+<br>
+                  <label for="mensagem">Mensagem: </label>
+                  <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea>
+<br>                  
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha newaletter? Fique por dentro</label>
+<br>
+                  <input type="submit" value="Enviar mensagem">
+              </form>  
 
         </footer>
     </section>
